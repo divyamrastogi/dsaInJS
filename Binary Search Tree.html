@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script type="text/javascript" src="./node.js"></script>
+    <script type="text/javascript" src="./Queue.js"></script>
+    <script type="text/javascript" src="./binarySearchTree.js"></script>
+    <title>Binary Search Tree</title>
+</head>
+<style type="text/css">
+.centerDiv {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.root {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin : auto;
+    background: green;
+}
+.left {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -20px;
+    background: red;
+    top : 20px;
+}
+.right {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -20px;
+    background: black;
+    top: 20px;
+}
+</style>
+<body id="page-top" class="index">
+<div>
+	<input id="insert" onkeypress="checkEnter(event)"> <input type="submit" onclick="push()"/>
+</div>
+<div class="root">
+    <div class="left">
+        <div class="left">
+        </div>
+    </div>
+    <div class="right">
+        <div class="left">
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
